@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    
+    
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+}
+
+.red{
+    background-color:  red; 
+}
+
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+
+@media screen and (max-height : 320px){/* quando a altura da pagina for menor que 320px, as seguintes operações são feitas*/
+    .box{
+        background-color: green; 
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+    }
+}
